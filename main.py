@@ -1,6 +1,10 @@
-print("═══════════════════════════════════════")
-print("              J.A.R.V.I.S.")
-print("═══════════════════════════════════════")
+title = "J.A.R.V.I.S."
+
+width = 44
+
+print("╭" + "─" * width + "╮")
+print("│" + title.center(width) + "│")
+print("╰" + "─" * width + "╯")
 
 import time
 
@@ -56,6 +60,7 @@ else:
 print(f"{greeting}, Guna.")
 time.sleep(0.5)
 print(f"{greeting1}")
+print()
 
 #Now lets make it listen to the user and respond accordingly.
 
@@ -66,12 +71,13 @@ current_hour = datetime.now().hour
 command = input("> ")
 
 if command == "bye" or command == "exit":
-
+    print()
     print("Bye Guna.")
     print("See you later.")
     # Say Good Night only at night
     if current_hour >= 21 or current_hour < 5:
         print("Good Night.")
+        print()
     time.sleep(1)
     print("Shutting down J.A.R.V.I.S...")
     time.sleep(1)

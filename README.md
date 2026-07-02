@@ -89,3 +89,14 @@ If you're one of those people...
 Thanks for being part of the journey. ❤️
 
 > *"Dreaming wasn't enough. So I started building it."*
+
+## 📖 Development Log
+
+### v0.0.1
+> J.A.R.V.I.S. opened its eyes for the first time.
+
+### v0.0.2
+> Learned to wake up with a premium boot sequence.
+
+### v0.0.3
+> Understood the difference between morning, afternoon, and evening. Learned how to say goodbye.

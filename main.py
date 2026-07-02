@@ -1,11 +1,13 @@
 title = "J.A.R.V.I.S."
-
 width = 44
 
-print("╭" + "─" * width + "╮")
-print("│" + title.center(width) + "│")
-print("╰" + "─" * width + "╯")
-print()
+banner = f"""
+╭{"─" * width}╮
+│{title.center(width)}│
+╰{"─" * width}╯
+"""
+
+print(banner)
 
 import time
 

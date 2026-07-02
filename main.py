@@ -5,6 +5,7 @@ width = 44
 print("╭" + "─" * width + "╮")
 print("│" + title.center(width) + "│")
 print("╰" + "─" * width + "╯")
+print()
 
 import time
 
